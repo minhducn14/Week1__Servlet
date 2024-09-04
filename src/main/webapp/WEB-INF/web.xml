@@ -39,6 +39,7 @@
     <servlet-name>Bai3</servlet-name>
     <url-pattern>/Bai3</url-pattern>
   </servlet-mapping>
+ 
   <servlet>
     <description></description>
     <display-name>Bai4</display-name>
@@ -53,14 +54,15 @@
 		<param-value>22</param-value>
      </init-param>
   </servlet>
+  
   <context-param>
-             <param-name>address</param-name>
-              <param-value>Ho Chi Minh</param-value>
-      </context-param>
-      <context-param>
-             <param-name>phone</param-name>
-       <param-value>0123456789</param-value>
-       </context-param>
+         <param-name>address</param-name>
+          <param-value>Ho Chi Minh</param-value>
+  </context-param>
+  <context-param>
+         <param-name>phone</param-name>
+   <param-value>0123456789</param-value>
+   </context-param>
   <servlet-mapping>
     <servlet-name>Bai4</servlet-name>
     <url-pattern>/Bai4</url-pattern>
